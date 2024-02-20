@@ -1,6 +1,6 @@
 # tests/test_fizzbuzz.py
 
-from main import fizzbuzz
+from ..main import fizzbuzz
 
 def test_fizzbuzz_divisible_by_3():
     assert fizzbuzz(3) == "Fizz"

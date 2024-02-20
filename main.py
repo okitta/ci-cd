@@ -10,5 +10,5 @@ def fizzbuzz(var):
         return var
 
 if __name__ == "__main__":
-    x = input("Enter an integer number: ")  # Prompt the user to input a number
+    x = input("Enter a number: ")  # Prompt the user to input a number
     print(fizzbuzz(x))
